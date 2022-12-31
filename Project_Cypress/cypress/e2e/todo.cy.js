@@ -9,10 +9,10 @@ context('TodoMVC', () => {
         .type('{enter}')
 
     // asserção: validação/garantia 
-        //cy.get('ul.todo-list li').should('have.lenght', 3)
+        cy.get('ul.todo-list li').should('have.length', 1)
 
     });
-    
+
+
 });
 
-//chai
